@@ -25,3 +25,6 @@ fonts/*.ttf
 Thumbs.db
 .vscode/
 .idea/
+
+# Local-only notes
+JIRA_TICKET.md
