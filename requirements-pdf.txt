@@ -1,0 +1,4 @@
+# Optional: only needed to regenerate the PDF user guide (make_pdf.py).
+# The app itself does not require these.
+markdown>=3.5
+xhtml2pdf>=0.2.11

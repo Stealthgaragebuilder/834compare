@@ -1,0 +1,2 @@
+# Keep EDI fixtures byte-for-byte (tests depend on exact delimiters/line endings)
+*.834 -text

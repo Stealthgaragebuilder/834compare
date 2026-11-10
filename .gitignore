@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated output
+report.xlsx
+*.xlsx
+
+# Microsoft fonts are licensed and can't be redistributed; copy them locally (see fonts/README.md)
+fonts/*.ttf
+
+# Never commit real enrollment data. Only the synthetic fixtures in samples/ are tracked.
+*.834
+*.edi
+*.x12
+*.txt
+!samples/**/*.834
+!requirements*.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
